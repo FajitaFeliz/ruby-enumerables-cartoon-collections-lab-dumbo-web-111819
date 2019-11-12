@@ -1,5 +1,10 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(input)
+  i = 1
+  while i < (input.length + 1) do
+     puts "/#{i}.*#{input[i-1]}/"}
+     i += 1
+  end
+  nil
 end
 
 def summon_captain_planet# code an argument here
