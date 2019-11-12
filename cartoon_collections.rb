@@ -14,5 +14,5 @@ end
 def find_the_cheese(input)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  input.any{ |n| n == cheese_types.any}
+  input.detect{ |n| n == cheese_types.any}
 end
