@@ -13,6 +13,6 @@ end
 
 def find_the_cheese(input)
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  input.detect{ |n| n == "cheddar" || "gouda" || "camembert"}
+  # cheese_types = ["cheddar", "gouda", "camembert"]
+  input.detect{ |n| n == "cheddar" || n == "gouda" || n == "camembert"}
 end
